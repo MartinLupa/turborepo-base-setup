@@ -15,6 +15,18 @@ module.exports = {
   plugins: ['@typescript-eslint', 'jsx-a11y', 'prettier', 'turbo'],
   rules: {
     '@next/next/no-html-link-for-pages': 'off',
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
+    'no-console': [
+      'error',
+      {
+        allow: ['warn', 'error'],
+      },
+    ],
   },
   // parserOptions: {
   //   project: ['./tsconfig.json'],
