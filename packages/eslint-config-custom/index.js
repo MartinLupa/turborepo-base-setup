@@ -1,4 +1,5 @@
 module.exports = {
+  parser: '@typescript-eslint/parser',
   extends: [
     'eslint:recommended',
     'plugin:jsx-a11y/recommended',
@@ -11,12 +12,11 @@ module.exports = {
     'plugin:prettier/recommended',
     'prettier',
   ],
+  plugins: ['@typescript-eslint', 'jsx-a11y', 'prettier', 'turbo'],
   rules: {
     '@next/next/no-html-link-for-pages': 'off',
   },
   parserOptions: {
-    babelOptions: {
-      presets: [require.resolve('next/babel')],
-    },
+    project: ['./tsconfig.json'],
   },
 }
