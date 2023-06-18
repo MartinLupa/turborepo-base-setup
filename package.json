@@ -1,5 +1,11 @@
 {
+  "name": "e-commerce-monorepo",
+  "version": "0.0.0",
   "private": true,
+  "workspace_*": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -13,6 +19,5 @@
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@7.15.0",
-  "name": "e-commerce"
+  "packageManager": "pnpm@7.15.0"
 }

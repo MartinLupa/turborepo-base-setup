@@ -16,7 +16,7 @@ module.exports = {
   rules: {
     '@next/next/no-html-link-for-pages': 'off',
   },
-  parserOptions: {
-    project: ['./tsconfig.json'],
-  },
+  // parserOptions: {
+  //   project: ['./tsconfig.json'],
+  // },
 }
