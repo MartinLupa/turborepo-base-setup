@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import StitchesLogo from '../components/StitchesLogo'
 import { styled } from '../stitches.config'
-import { Button } from "ui";
+import { Button } from 'ui'
 
 const Box = styled('div', {})
 
@@ -49,7 +49,7 @@ export default function Home() {
           <Link href="https://stitches.dev">stitches.dev</Link>.
         </Text>
       </Container>
-    <Button />
+      <Button />
     </Box>
   )
 }
