@@ -8,8 +8,8 @@ module.exports = {
     'next',
     'turbo',
     'next/core-web-vitals',
-    'prettier',
     'plugin:prettier/recommended',
+    'prettier',
   ],
   rules: {
     '@next/next/no-html-link-for-pages': 'off',
